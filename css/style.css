@@ -27,7 +27,15 @@ main section:nth-child(2){
 }
 #main-head div,#main-foot div{
     background-color:dodgerblue;
+    
+}
+
+#main-head div{
     height: 198px;
+}
+
+#main-foot div{
+    height:160px;
 }
 
 #main-main::after{
@@ -52,16 +60,16 @@ main section:nth-child(2){
 }
 
 .lateral:first-child{
-    margin: 0px 1% 0px 0px;
+    margin: 1px 1% 0px 0px;
 }
 .lateral:last-child{
-    margin: 0px 0px 0px 1%;
+    margin: 1px 0px 0px 1%;
 }
 
 
 .central{
     width:60%;
-    margin: 0px 1%;
+    margin: 1px 1%;
 }
 
 footer#foot{

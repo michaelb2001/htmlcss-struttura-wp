@@ -3,7 +3,7 @@
     margin:0px;
 }
 
-#head div,#foot div{
+#head div{
     background-color: rgb(251, 127, 255);
     height: 100px;
 }
@@ -74,4 +74,9 @@ main section:nth-child(2){
 
 footer#foot{
     margin-top:25px;
+}
+
+#foot div{
+    height: 80px;
+    background-color: blueviolet;
 }

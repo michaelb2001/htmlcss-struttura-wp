@@ -1,0 +1,19 @@
+*{
+    margin:0px;
+    box-sizing: border-box;
+}
+
+header div{
+    background-color: rgb(251, 127, 255);
+    height: 100px;
+}
+
+main section{
+    margin-top: 25px;
+}
+
+main section:nth-child(1) div{
+    background-color: rgb(252, 248, 21);
+    height: 500px;
+}
+

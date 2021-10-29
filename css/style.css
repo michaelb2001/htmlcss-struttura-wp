@@ -7,12 +7,14 @@
     width: 70%;
     margin:auto;
 }
+
+
 #head div{
     background-color: rgb(251, 127, 255);
     height: 100px;
 }
 
-main,#foot{
+#head,main,#foot{
     margin: 25px 0px;
 }
 

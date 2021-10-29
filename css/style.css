@@ -3,6 +3,10 @@
     margin:0px;
 }
 
+.cont{
+    width: 70%;
+    margin:auto;
+}
 #head div{
     background-color: rgb(251, 127, 255);
     height: 100px;
@@ -24,9 +28,9 @@ main section:nth-child(1) div{
 
 main section:nth-child(2){
     background-color: rgb(45, 98, 255);
-    height: 1000px;
+    height: 840px;
 }
-#main-head div,#main-foot div{
+#main-head div{
     background-color:dodgerblue;
     
 }
@@ -35,9 +39,6 @@ main section:nth-child(2){
     height: 198px;
 }
 
-#main-foot div{
-    height:160px;
-}
 
 #main-main::after{
     content: "";
@@ -73,7 +74,7 @@ main section:nth-child(2){
     margin: 1px 1%;
 }
 
-#foot div{
+footer div{
     height: 80px;
     background-color: blueviolet;
 }
